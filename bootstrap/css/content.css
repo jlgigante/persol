@@ -1,0 +1,26 @@
+/* Styles utiles à la mise en page */
+header {
+   height: 100px;
+}
+section {
+   height: 300px;
+}
+footer {
+   height: 50px;
+}
+.bloc {
+   height: 150px;
+}
+/* Les styles suivants sont juste pour faire apparaître la mise en page */
+.span12 {
+   background-color:#0CF;
+}
+.span6 {
+   background-color:#EE0;
+}
+[class="span3 bloc"] {
+   background-color:#F60;
+}
+[class="span3 bloc"]:first-child {
+   background-color:#090;
+}

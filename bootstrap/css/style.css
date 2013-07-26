@@ -1,0 +1,11 @@
+body {
+   background-color:#DDD;
+}
+[class*="span"] {
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+#formulaire {
+   background-color:#CCC;
+   padding: 10px;
+}
