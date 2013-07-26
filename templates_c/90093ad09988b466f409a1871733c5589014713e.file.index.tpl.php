@@ -1,4 +1,31 @@
-<!DOCTYPE html>
+<?php /* Smarty version Smarty-3.1.13, created on 2013-07-26 17:48:10
+         compiled from "templates/index.tpl" */ ?>
+<?php /*%%SmartyHeaderCode:191866841451f272fccde919-13527261%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+$_valid = $_smarty_tpl->decodeProperties(array (
+  'file_dependency' => 
+  array (
+    '90093ad09988b466f409a1871733c5589014713e' => 
+    array (
+      0 => 'templates/index.tpl',
+      1 => 1374843158,
+      2 => 'file',
+    ),
+    '29dc823677545fc68809f6fbc92094210f947e5a' => 
+    array (
+      0 => 'templates/structure.tpl',
+      1 => 1374853689,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '191866841451f272fccde919-13527261',
+  'function' => 
+  array (
+  ),
+  'version' => 'Smarty-3.1.13',
+  'unifunc' => 'content_51f272fcd19210_98249206',
+  'has_nocache_code' => false,
+),false); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_51f272fcd19210_98249206')) {function content_51f272fcd19210_98249206($_smarty_tpl) {?><!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
@@ -183,11 +210,9 @@
 			</p>
 			
 		</article>
-		{*block name="content"}
-	    	block content
-	    {/block*}
+		
     </section>
-    {*SECTION LEFT*}
+    
     <section class="left">
     	<article>
 			<h1>Les obsessions cinétographiques de la rédaction</h1>			
@@ -207,7 +232,7 @@
 			</p>			
     	</article>    		
     </section>        
-    {*ASIDE*}
+    
     <aside>
     	<div id="pub">
     		pub 300x600
@@ -215,7 +240,7 @@
 		<!-- <iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2FPersol&amp;width=292&amp;height=258&amp;show_faces=true&amp;colorscheme=dark&amp;stream=false&amp;show_border=true&amp;header=false&amp;appId=344344762361988" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:292px; height:258px;" allowTransparency="true"></iframe> -->		
 		<div class="fb-like-box" data-href="https://www.facebook.com/Persol" data-width="292" data-show-faces="true" data-colorscheme="dark" data-stream="false" data-show-border="true" data-header="false" style="background:grey;"></div>		
     </aside>    
-	{*FOOTER*}
+	
 	<footer class="footer">
 		<div class="foot-certif">
 			<a class="sp-ojd" href="http://www.ojd.com/engine/adhchif/adhe_list.php?mode=chif&amp;cat=1784" target="_blank" title="OJD" rel="nofollow">
@@ -294,12 +319,13 @@
         <script src="js/main.js"></script>
 
         <script>
-        	{literal}
+        	
             var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
             (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
             g.src='//www.google-analytics.com/ga.js';
             s.parentNode.insertBefore(g,s)}(document,'script'));
-            {/literal}
+            
         </script>
     </body>
 </html>
+<?php }} ?>
